@@ -1,0 +1,86 @@
+body{
+    background-color: lightblue;
+}
+
+.center_main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container2{
+    /* border: 2px solid black; */
+    height: 65vh;
+    width: 150vb;
+    background-color: white;
+    border-radius: 25px;
+    /* box-shadow: 2px 2px 2px 2px lightcyan; */
+}
+
+.left-box{
+    position: relative;
+    top: -20px;
+}
+
+.first-block{
+    /* border: 2px solid black; */
+}
+
+.second-block{
+    /* border: 2px solid black; */
+}
+
+.third-block{
+    /* border: 2px solid black; */
+}
+
+.main-temp{
+    font-size: 800%;
+    font-family: 'PT serif','sans-serif';
+    font-weight: lighter;
+    margin: 0;
+}
+
+.degree{
+    position : absolute;
+    top: 40px;
+    right: 100px;
+    font-family: 'PT serif','sans-serif';
+}
+
+.weather-style{
+    font-family: 'Poppins','sans-serif';
+    font-weight: 200;
+    margin: 0;
+}
+
+.hum-wspeed{
+    font-family: 'Poppins','sans-serif';
+    font-weight: 200;
+}
+
+.hum-wspeed-d{
+    font-family: 'Poppins','sans-serif';
+    font-weight: 500;
+}
+
+.location{
+    font-family: 'Poppins','sans-serif';
+    font-size: 120%;
+    font-weight: 400;
+}
+
+.five-days{
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 55%;
+}
+
+.card-no-border {
+    border: none; /* Removes the border */
+    box-shadow: none; /* Removes the shadow (if needed) */
+}
+
+.card-outer{
+    box-shadow: 2px 2px 5px lightblue;
+}
